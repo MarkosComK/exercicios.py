@@ -1,0 +1,1 @@
+print('Olá, mundo!') #comanto "print" exibe mensagem na tela
