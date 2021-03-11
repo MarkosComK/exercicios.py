@@ -1,2 +1,3 @@
 # exercicios.py
-Resolução de exercícios em python
+Mais de 100 exercícios resolvidos em python tratando:
+Strings, tuplas, listas, dicionários, variáveis, definições...
