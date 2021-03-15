@@ -1,3 +1,5 @@
+#Faça um programa que leia três números e mostre qual é o maior e qual é o menor.
+
 valor1 = int(input('Digite um valor: '))
 valor2 = int(input('Digite outro valor: '))
 valor3 = int(input('Digite mais um valor: '))

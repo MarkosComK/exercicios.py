@@ -1,3 +1,7 @@
+#Faça um programa que leia nome e peso de várias pessoas, guardando tudo em uma lista. No final, mostre:
+#A) Quantas pessoas foram cadastradas.
+#B) Uma listagem com as pessoas mais pesadas.
+#C) Uma listagem com as pessoas mais leves
 dados = []
 pessoas = []
 maiorp = menorp = 0
@@ -19,9 +23,9 @@ print(f'Um total de {len(dados)} pessoas foram cadastradas')
 print(f'As pessoas mais pesadas tem {maiorp} KG, ', end='')
 for p in dados:
     if p[1] == maiorp:
-        print(f'{p[0]}, ', end='')
+        print(f'{p[0]} ', end='')
 print()
 print(f'As pessoas mais leves tem {menorp} KG, ', end='')
 for p in dados:
     if p[1] == menorp:
-        print(f'{p[0]}, ', end='')
+        print(f'{p[0]} ', end='')

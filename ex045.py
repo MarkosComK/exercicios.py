@@ -1,3 +1,4 @@
+#Crie um programa que faça o computador jogar Jokenpô com você.
 import sys
 from random import randint
 from time import sleep

@@ -1,3 +1,4 @@
+#Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
 n = float(input('Digite um número para ver sua tabuada: '))
 v = 1
 print('-' * 10)
