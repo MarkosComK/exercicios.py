@@ -1,3 +1,4 @@
-# exercicios.py
-Mais de 100 exercícios resolvidos em python tratando:
-Strings, tuplas, listas, dicionários, variáveis, definições...
+### rmotr.com
+# Data Science with Python Course
+
+This material is created for our [Data Science with Python Course](https://rmotr.com/data-science-python-course)
