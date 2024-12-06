@@ -1,0 +1,37 @@
+#DataTypes
+#int
+a = 123
+b = -321
+c = 22
+
+print(a)
+print(a + b, end="|\n")
+print(b * 3)
+
+#float
+a = 123.0
+b = -321.43
+c = 22.42
+
+print(a)
+print(a + b, end="|\n")
+print(b * 3)
+
+#string
+a = "123"
+b = 'example'
+c = "OtherExample"
+
+#bool
+a = True
+b = False
+
+#varibles
+"""
+	Not much to talk about, just use snake_case please
+	(since the name of the language is python, duh)
+"""
+
+print(a)
+print(a + b, end="|\n")
+print(b * 3)
