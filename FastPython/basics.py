@@ -38,7 +38,10 @@ print(b * 3)
 
 #get user input
 value = input("(Try a number) minishell → ")
-print(int(value) + 5)
-print("Congratulations!")
+if (value.isdigit()):
+	print(int(value) + 5)
+	print("Congratulations!")
+else:
+	print("Common try a number mf")
 
 
