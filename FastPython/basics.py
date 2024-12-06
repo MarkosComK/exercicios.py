@@ -35,3 +35,10 @@ b = False
 print(a)
 print(a + b, end="|\n")
 print(b * 3)
+
+#get user input
+value = input("(Try a number) minishell → ")
+print(int(value) + 5)
+print("Congratulations!")
+
+
