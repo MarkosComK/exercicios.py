@@ -44,4 +44,9 @@ if (value.isdigit()):
 else:
 	print("Common try a number mf")
 
-
+# we also have methos in python / object oriented language
+if (value.isalnum()):
+	print("Upercase: " + value.upper())
+	print("Lowercase: " + value.lower())
+else:
+	print("Try a word, dude")
