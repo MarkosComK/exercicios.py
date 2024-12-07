@@ -2,13 +2,18 @@ from typing import List
 
 class Solution:
 	def containsDuplicate(self, nums: List[int]) -> bool:
-		for value in nums:
-			print(value)
-		return True
+		seen = set()
+		for num in nums:
+			if num in seen:
+				return True
+			seen.add(num)
+		return False
 
 def __main__():
-	list = [1, 2, 3, 4, 5, 6]
+	list_1 = [1, 2, 3, 4, 5, 6]
 	solution = Solution()
-	solution.containsDuplicate(list)
+	print(solution.containsDuplicate(list_1))
+	list_2 = [1, 2, 3, 4, 5, 6, 6]
+	print(solution.containsDuplicate(list_2))
 
 __main__()
