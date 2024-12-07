@@ -50,3 +50,14 @@ if (value.isalnum()):
 	print("Lowercase: " + value.lower())
 else:
 	print("Try a word, dude")
+
+"""
+We have the core conditional operators such as:
+>
+<
+>=
+<=
+==
+!=
+Like any other language no much secret here.
+"""
