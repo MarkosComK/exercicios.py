@@ -48,6 +48,8 @@ else:
 if (value.isalnum()):
 	print("Upercase: " + value.upper())
 	print("Lowercase: " + value.lower())
+	if (value.capitalize() == 'Markos'):
+		print("Cool guy, dude")
 else:
 	print("Try a word, dude")
 
