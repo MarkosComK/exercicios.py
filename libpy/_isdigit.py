@@ -1,31 +1,14 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    main.py                                            :+:      :+:    :+:    #
+#    _isdigit.py                                        :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: marsoare <marsoare@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/12/08 08:39:40 by marsoare          #+#    #+#              #
-#    Updated: 2024/12/08 09:05:46 by marsoare         ###   ########.fr        #
+#    Created: 2024/12/08 09:00:27 by marsoare          #+#    #+#              #
+#    Updated: 2024/12/08 09:06:02 by marsoare         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-from _isalpha import _isalpha
-from _isdigit import _isdigit
-
-def test_ascii(function):
-	i = 0
-	while (i <= 177):
-		print("char: " + chr(i), function(chr(i)))
-		i += 1
-
-def test_digit(function):
-	i = -9
-	while (i <= 9):
-		print(function(i))
-		i += 1
-
-def __main__():
-	test_digit(_isdigit)
-
-__main__()
+def _isdigit(c: int) -> bool:
+	return (-9 <= c <= 9)
