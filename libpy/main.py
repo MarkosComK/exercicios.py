@@ -6,7 +6,7 @@
 #    By: marsoare <marsoare@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/12/08 08:39:40 by marsoare          #+#    #+#              #
-#    Updated: 2024/12/08 09:15:00 by marsoare         ###   ########.fr        #
+#    Updated: 2024/12/08 09:29:59 by marsoare         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,13 @@ def test_digit(function):
 		i += 1
 
 def __main__():
-	test_digit(_isalnum)
-	test_ascii(_isalnum)
+	name = 'Markos'
+	print(f'strlen: {name} -> {_strlen(name)}')
+	name = 'Cadabra'
+	print(f'strlen: {name} -> {_strlen(name)}')
+	name = 'OMG'
+	print(f'strlen: {name} -> {_strlen(name)}')
+	name = 'size'
+	print(f'strlen: {name} -> {_strlen(name)}')
 
 __main__()
