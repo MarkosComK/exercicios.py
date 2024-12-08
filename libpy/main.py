@@ -6,7 +6,7 @@
 #    By: marsoare <marsoare@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/12/08 08:39:40 by marsoare          #+#    #+#              #
-#    Updated: 2024/12/08 09:44:55 by marsoare         ###   ########.fr        #
+#    Updated: 2024/12/08 09:54:35 by marsoare         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,14 +26,9 @@ def test_digit(function):
 
 def __main__():
 	name = ['M', 'a', 'r', 'k', 'o', 's']
-	print(f'before: {name} ', end="")
-	_fill(name, 0)
-	print(f'after: {name}')
-	print(f'before: {name} ', end="")
-	_fill(name, 'M')
-	print(f'after: {name}')
-	print(f'before: {name} ', end="")
-	_fill(name, 'A')
-	print(f'after: {name}')
+	x = name[:]
+	x[0] = 'a'
+	print(x)
+	print(name)
 
 __main__()
