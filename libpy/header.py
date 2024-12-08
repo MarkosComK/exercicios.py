@@ -5,6 +5,7 @@ from _isprint import _isprint
 from _strlen import _strlen
 from _fill import _fill
 from _toupper import _toupper
+from _tolower import _tolower
 
 __all__ = [
 	'_isalpha',
@@ -14,4 +15,5 @@ __all__ = [
 	'_strlen',
 	'_fill',
 	'_toupper',
+	'_tolower',
 ]
