@@ -12,8 +12,13 @@
 
 from _isalpha import _isalpha
 
+def test_ascii(function):
+	i = 0
+	while (i <= 177):
+		print("char: " + chr(i), function(chr(i)))
+		i += 1
+
 def __main__():
-	c = "c"
-	print(_isalpha(c))
+	test_ascii(_isalpha)
 
 __main__()
