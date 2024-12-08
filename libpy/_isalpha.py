@@ -6,9 +6,9 @@
 #    By: marsoare <marsoare@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/12/08 08:39:12 by marsoare          #+#    #+#              #
-#    Updated: 2024/12/08 08:48:58 by marsoare         ###   ########.fr        #
+#    Updated: 2024/12/08 08:50:18 by marsoare         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 def _isalpha(c: str) -> bool:
-	return (ord(c) >= 65 and ord(c) <= 90 or ord(c) >= 97 and ord(c) <= 122)
+	return ('a' <= c <= 'z' or 'A' <= c <= 'Z')
